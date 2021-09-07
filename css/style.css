@@ -52,8 +52,18 @@ body {
     width: 100%;
 }
 
+.slider-container-3d {
+    transition-duration: 0ms;
+    transform: translate3d(307px, 0px, 0px);
+    perspective-origin: 120px 50%;
+}
+
 .swiper-slide {
     width: auto !important;
+}
+
+.slider-card-wrap {
+    transition-duration: 0ms;
 }
 
 .card {
@@ -63,7 +73,7 @@ body {
     overflow: hidden;
 }
 
-.card__img {
+.card-img {
     display: block;
     width: 100%;
     height: 240px;
@@ -71,19 +81,19 @@ body {
     object-fit: cover;
 }
 
-.card__body {
+.card-body {
     padding: 15px 20px;
     font-weight: 600;
     text-align: center;
 }
 
-.card__body>h3 {
+.card-body>h3 {
     font-size: 1.25rem;
     line-height: 1.5;
 }
 
-.card__body>span {
+.card-body>span {
     display: block;
     font-size: 1rem;
-    color: #f44336;
+    color: #8C6B53;
 }
