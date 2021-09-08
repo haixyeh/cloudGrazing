@@ -29,8 +29,8 @@ $(function() {
                 const element = obj[key];
                 if (element) {
                     str += key;
-                    if (index != 0) str = str + " ";
                     index += 1;
+                    if (index != 0) str = str + " ";
                 }
             }
         }
@@ -69,7 +69,8 @@ $(function() {
                 var cardWrapCass= classNames({
                     "swiper-slide slider-card-wrap": true,
                     "swiper-slide-active": !index,
-                    "swiper-slide-next": index === 1
+                    "swiper-slide-next": index === 1,
+                    "is-working": !item.is_working
                 });
 
                 var cardWrap = $("<div>", {

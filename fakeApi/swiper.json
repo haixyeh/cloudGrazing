@@ -2,46 +2,52 @@
     "status":  200,
     "dataList": [
         {
-            "img_url": "https://picsum.photos/320/320?random2",
+            "img_url": "./img/business.png",
             "title" : "形象網站",
             "describe": "商品及企業文化形象",
             "is_working": true
         },
         {
-            "img_url": "https://picsum.photos/320/320?random6",
-            "title" : "基本前後台網站",
-            "describe": "會員管理、上傳頭貼、修改基本資料、會員等級分層、上傳商品、商品文案修改",
-            "is_working": false
+            "img_url": "./img/functional.png",
+            "title" : "功能網站",
+            "describe": "會員管理、商品上架",
+            "is_working": true
         },
         {
-            "img_url": "https://picsum.photos/320/320?random3",
+            "img_url": "./img/one_page.png",
             "title" : "一頁式行銷",
             "describe": "製造衝動購物情境",
             "is_working": true
         },
         {
-            "img_url": "https://picsum.photos/320/320?random7",
+            "img_url": "./img/business.png",
             "title" : "形象網站",
-            "describe": "符合商品，深入切題"
+            "describe": "符合商品，深入切題",
+            "is_working": true
         },
         {
-            "img_url": "https://picsum.photos/320/320?random4",
+            "img_url": "./img/join_us.png",
             "title" : "金流網站",
-            "describe": "-----",
+            "describe": "牛牛招募中",
             "is_working": false
         },
         {
-            "img_url": "https://picsum.photos/320/320?random5",
+            "img_url": "./img/join_us.png",
             "title" : "App製作",
-            "describe": "-----",
+            "describe": "牛牛招募中",
             "is_working": false
         },
         {
-            "img_url": "https://picsum.photos/320/320?random5",
-            "title" : "App製作",
-            "describe": "-----",
+            "img_url": "./img/join_us.png",
+            "title" : "桌面應用程式",
+            "describe": "牛牛招募中",
+            "is_working": false
+        },
+        {
+            "img_url": "./img/join_us.png",
+            "title" : "網頁遊戲開發",
+            "describe": "牛牛招募中",
             "is_working": false
         }
-    ],
-    "msg": ""
+    ]
 }
