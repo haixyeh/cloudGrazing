@@ -92,7 +92,7 @@ body {
 #mainBody {
     /* padding: 0 0 69px 0; */
     /* min-height: 900px; */
-    max-height: calc(100% - 72px);
+    max-height: calc(100% - 62px);
     overflow: auto;
     background-color: #EEE;
 }
