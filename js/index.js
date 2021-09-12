@@ -1,17 +1,23 @@
 $(function() {
     console.log( "ready!" );
     var mySwiper = new Swiper('.swiper-container', {
-        effect: 'coverflow',
+        // effect: 'coverflow',
         slidesPerView: 'auto',
         centeredSlides: true,
-        coverflowEffect: {
-            slideShadows: true,
-            rotate: 20,
-            stretch: 0,
-            depth: 350,
-            modifier: 1,
+        //左右切換
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
+        //分頁器
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true, // 允許點擊小圓點跳轉
+        },
+        loop: true,
     });
+
+    // new Swiper('.swiper-container');
     var errorHandel = function(res) {
         if (res.status !== 200) {
             alert(res.msg);
@@ -51,7 +57,7 @@ $(function() {
         if (res.dataList && res.dataList.length) {
             var idName = "idTest";
             var sliderData = res.dataList;
-            var textTop = true;
+            var textTop = false;
             var cardDom = [];
             var width = 350;
             var zIndex = 1;
@@ -68,8 +74,8 @@ $(function() {
                 
                 var cardWrapCass= classNames({
                     "swiper-slide slider-card-wrap": true,
-                    "swiper-slide-active": !index,
-                    "swiper-slide-next": index === 1,
+                    "swiper-slide-active": index === 3,
+                    "swiper-slide-next": index === 4,
                     "is-working": !item.is_working
                 });
 
@@ -99,6 +105,10 @@ $(function() {
                     stretch: 0,
                     depth: 350,
                     modifier: 1,
+                },
+                autoplay: {
+                    delay: 2000,
+                    disableOnInteraction: false,
                 },
             });
             
