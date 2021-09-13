@@ -11,7 +11,7 @@
 
 html,
 body {
-    height: 100vh;
+    height: 100%;
 }
 
 body {
@@ -168,7 +168,7 @@ body {
         position: absolute;
         background: #EEE;
         width: 0;
-        height: 100vh;
+        height: 100%;
         transition-property: width;
         transition-duration: 0.2s;
         transition-timing-function: ease;
@@ -193,7 +193,7 @@ body {
     .mobile-open {
         display: block;
         width: 70%;
-        height: calc(100vh - 60px);
+        height: calc(100% - 60px);
     }
 
     .nav-link::before {
