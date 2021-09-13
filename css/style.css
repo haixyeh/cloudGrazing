@@ -255,15 +255,15 @@ body {
 #mainBody {
     position: absolute;
     top: 60px;
-    bottom: 69px;
+    bottom: 0;
     width: 100%;
     overflow: auto;
     background-color: #EEE;
 }
 
 #footer {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     width: 100%;
     height: 69px;
     box-shadow: 1px 0px 4px 0px;
