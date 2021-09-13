@@ -19,6 +19,7 @@ $(function() {
     $(".nav-switch").on("click", function() {
         $(this).toggleClass("close-img")
         $(".nav-link").toggleClass("mobile-open");
+        $(".mobile-nav-mask").toggleClass("open")
     });
 
     // new Swiper('.swiper-container');
