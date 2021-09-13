@@ -253,7 +253,7 @@ body {
 
 /* 主結構 */
 #mainBody {
-    max-height: calc(100% - 62px);
+    max-height: calc(100vh - 62px);
     overflow: auto;
     background-color: #EEE;
 }
