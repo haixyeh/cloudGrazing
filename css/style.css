@@ -253,12 +253,17 @@ body {
 
 /* 主結構 */
 #mainBody {
-    max-height: calc(100vh - 62px);
+    position: absolute;
+    top: 60px;
+    bottom: 69px;
+    width: 100%;
     overflow: auto;
     background-color: #EEE;
 }
 
 #footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     height: 69px;
     box-shadow: 1px 0px 4px 0px;
