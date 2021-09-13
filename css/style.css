@@ -16,7 +16,7 @@ body {
 
 body {
     position: relative;
-    /* min-width: 1200px; */
+    padding-top: 60px;
     background-color: #EEE;
     height: 100%;
     overflow: hidden;
@@ -30,7 +30,7 @@ body {
     box-shadow: 1px 0px 4px 0px;
     background-color: #FFF;
     width: 100%;
-    /* overflow: hidden; */
+    height: 60px;
     z-index: 100;
 }
 
@@ -147,11 +147,6 @@ body {
 .logo-line {
     display: inline-block;
     height: inherit;
-}
-
-#header,
-.hold {
-    height: 60px;
 }
 
 
