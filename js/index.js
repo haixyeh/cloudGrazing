@@ -1,7 +1,6 @@
 $(function() {
     console.log( "ready!" );
     var mySwiper = new Swiper('.swiper-container', {
-        // effect: 'coverflow',
         slidesPerView: 'auto',
         centeredSlides: true,
         //左右切換
@@ -15,6 +14,11 @@ $(function() {
             clickable: true, // 允許點擊小圓點跳轉
         },
         loop: true,
+    });
+
+    $(".nav-switch").on("click", function() {
+        $(this).toggleClass("close-img")
+        $(".nav-link").toggleClass("mobile-open");
     });
 
     // new Swiper('.swiper-container');
