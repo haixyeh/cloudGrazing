@@ -16,7 +16,7 @@ $(function() {
         loop: true,
     });
 
-    $(".nav-switch").on("click", function() {
+    $(".nav-switch, .nav-link a").on("click", function() {
         $(this).toggleClass("close-img")
         $(".nav-link").toggleClass("mobile-open");
         $(".mobile-nav-mask").toggleClass("open")

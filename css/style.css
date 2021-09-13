@@ -173,7 +173,6 @@ body {
         height: 100vh;
         transition-property: width;
         transition-duration: 0.5s;
-        transition-delay: 0.5s;
         transition-timing-function: ease;
         overflow: hidden;
     }
