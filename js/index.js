@@ -17,7 +17,7 @@ $(function() {
     });
 
     $(".nav-switch, .nav-link a").on("click", function() {
-        $(this).toggleClass("close-img")
+        $(".nav-switch").toggleClass("close-img")
         $(".nav-link").toggleClass("mobile-open");
         $(".mobile-nav-mask").toggleClass("open")
     });
