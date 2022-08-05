@@ -259,6 +259,7 @@ body {
     width: 100%;
     overflow: auto;
     background-color: #EEE;
+    scroll-behavior: smooth;
 }
 
 #footer {
